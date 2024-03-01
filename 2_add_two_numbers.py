@@ -5,7 +5,7 @@ class ListNode:
 
 
 class Solution:
-    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+    def add_two_numbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         dummyHead = ListNode(0)
         tail = dummyHead
         carry = 0
